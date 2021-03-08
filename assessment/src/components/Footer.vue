@@ -942,8 +942,8 @@ export default {
 </script>
 <style scoped>
 .rootWrapper {
+  margin-top: 25%;
   position: absolute;
-  bottom: 0;
   background-color: #f5f8fd;
   width: 100%;
   overflow: hidden;
@@ -1037,6 +1037,7 @@ hr {
 }
 @media (max-width: 480px) {
   .rootWrapper {
+    margin-top: 25%;
     position: relative;
   }
   .lineHeight0 {

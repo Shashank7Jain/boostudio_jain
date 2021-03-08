@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="145" height="121" viewBox="0 0 145 121">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="145" height="122" viewBox="0 0 145 122">
   <defs>
-    <filter id="MENU" x="0" y="0" width="145" height="121" filterUnits="userSpaceOnUse">
+    <filter id="MENU" x="0" y="0" width="145" height="122" filterUnits="userSpaceOnUse">
       <feOffset dx="11.984" dy="0.628" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="17.5" result="blur"/>
       <feFlood flood-color="#b6b5ba" flood-opacity="0.349"/>
@@ -8,38 +8,12 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Group_1985" data-name="Group 1985" transform="translate(-1723.484 -31.128)">
+  <g id="Group_1985" data-name="Group 1985" transform="translate(-1723.484 -30.128)">
     <g id="Shop_search" data-name="Shop/ search">
       <circle id="Ellipse_647_copy" data-name="Ellipse 647 copy" cx="24" cy="24" r="24" transform="translate(1760 33)" fill="#f9f3f0"/>
     </g>
-    <g transform="matrix(1, 0, 0, 1, 1723.48, 31.13)" filter="url(#MENU)">
-      <text id="MENU-2" data-name="MENU" transform="translate(60.52 64.87)" fill="#cf5727" font-size="13" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-19.715" y="0">MENU</tspan></text>
-    </g>
-    <g id="Menu-01" transform="translate(1755.365 28.146)">
-      <rect id="Rectangle_760" data-name="Rectangle 760" width="10.135" height="10.166" rx="3" transform="translate(16.03 16.6)" fill="none" stroke="#cf5828" stroke-miterlimit="10" stroke-width="2"/>
-      <rect id="Rectangle_761" data-name="Rectangle 761" width="10.135" height="10.166" rx="3" transform="translate(31.181 16.6)" fill="none" stroke="#cf5828" stroke-miterlimit="10" stroke-width="2"/>
-      <rect id="Rectangle_762" data-name="Rectangle 762" width="10.135" height="10.166" rx="3" transform="translate(16.06 31.688)" fill="none" stroke="#cf5828" stroke-miterlimit="10" stroke-width="2"/>
-      <rect id="Rectangle_763" data-name="Rectangle 763" width="10.135" height="10.166" rx="3" transform="translate(31.211 31.688)" fill="none" stroke="#cf5828" stroke-miterlimit="10" stroke-width="2"/>
-      <rect id="Rectangle_764" data-name="Rectangle 764" width="3.521" height="5.039" transform="translate(39.717 34.315)" fill="#f9f3f0"/>
-    </g>
-  </g>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="145" height="121" viewBox="0 0 145 121">
-  <defs>
-    <filter id="MENU" x="0" y="0" width="145" height="121" filterUnits="userSpaceOnUse">
-      <feOffset dx="11.984" dy="0.628" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="17.5" result="blur"/>
-      <feFlood flood-color="#b6b5ba" flood-opacity="0.349"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="Group_1985" data-name="Group 1985" transform="translate(-1723.484 -31.128)">
-    <g id="Shop_search" data-name="Shop/ search">
-      <circle id="Ellipse_647_copy" data-name="Ellipse 647 copy" cx="24" cy="24" r="24" transform="translate(1760 33)" fill="#f9f3f0"/>
-    </g>
-    <g transform="matrix(1, 0, 0, 1, 1723.48, 31.13)" filter="url(#MENU)">
-      <text id="MENU-2" data-name="MENU" transform="translate(60.52 64.87)" fill="#cf5727" font-size="13" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-19.715" y="0">MENU</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 1723.48, 30.13)" filter="url(#MENU)">
+      <text id="MENU-2" data-name="MENU" transform="translate(60.52 65.87)" fill="#cf5727" font-size="13" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-19.516" y="0">MENU</tspan></text>
     </g>
     <g id="Menu-01" transform="translate(1755.365 28.146)">
       <rect id="Rectangle_760" data-name="Rectangle 760" width="10.135" height="10.166" rx="3" transform="translate(16.03 16.6)" fill="none" stroke="#cf5828" stroke-miterlimit="10" stroke-width="2"/>

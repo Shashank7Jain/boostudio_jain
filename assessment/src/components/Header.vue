@@ -1,18 +1,17 @@
 <template>
   <div class="main__div">
     <div class="logo__bar">
-        <div>
-<img src="BOOStudio_Logo.png" height="30px" alt="logo" />
-        </div>
+      <div>
+        <img src="BOOStudio_Logo.png" height="55px" width="207" alt="logo" />
+      </div>
       <div>
         <button>BOOHUB &#8594;</button>&nbsp;&nbsp;&nbsp;
-        <span>menu</span>
+        <img src="menu.svg" alt="" width="100" height="40" />
       </div>
-
     </div>
     <hr />
     <div>
-      <p>Home/ Contact/ <b> Business Enquiries</b></p>
+      <p>Home/ Contact / <span>Business Enquiries </span></p>
     </div>
   </div>
 </template>
@@ -25,8 +24,8 @@ export default {
 
 <style scoped>
 .main__div {
-  height: 80px;
-  padding: 10px 30px;
+  height: 193px;
+  padding: 32px 111px 22.1px 123px;
   border: 0px solid black;
   background: #f2f2f2;
 }
@@ -34,24 +33,21 @@ export default {
   display: flex;
   justify-content: space-between;
 }
-.main__div__section {
-  display: flex;
-}
 button {
   background-color: #cf551c;
   color: #ffffff;
   border: none;
-  height: 2em;
-  font-weight: 500;
+  height: 55px;
+  width: 151px;
+  font-size: 18px;
+  font-weight: 600;
   border-radius: 2.5px;
   margin-left: 5px !important;
 }
 p {
-  font-size: 0.69rem;
-  text-align: center;
+  font-size: 20px;
 }
 hr {
-  border-top: 0.01px solid #9e9e9e;
-  
+  border-top: 1px solid #9e9e9e;
 }
 </style>

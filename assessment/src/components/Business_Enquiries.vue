@@ -4,21 +4,27 @@
       <div class="business__enquiries">
         <p class="sub__heading">Business enquiries</p>
         <h1>Visit one of our agency locations or contact us today</h1>
-        <p>
+        <p class="business_desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
           tempor incididunt ut labore
         </p>
         <p class="sub__heading">Address</p>
-        <address>
+        <span>
           101-103 Illawarra Road, Marrickville,<br />
           NSW 2204, Sydney, Australia. <br />
-        </address>
+        </span>
         <p class="sub__heading">Opening Hours</p>
         <span>Monday to Saturday:9:00 to 16.pm</span>
       </div>
 
       <br />
-      <img src="people.svg" alt="interview" srcset="" />
+      <img
+        src="people.svg"
+        width="350"
+        height="350"
+        alt="interview"
+        srcset=""
+      />
     </div>
     <div class="leave_main">
       <img src="business_first_dots.svg" class="first_dots" alt="dots" />
@@ -110,8 +116,6 @@
               <textarea
                 name="Tell us what your are looking"
                 id="tell_us"
-                cols="60"
-                rows="11"
                 placeholder="Tell us what your are looking"
               ></textarea>
             </td>
@@ -151,6 +155,19 @@ export default {
     margin-top: 10px;
   }
 }
+p {
+  font-size: 16px;
+}
+.business_desc {
+  font-size: 20px;
+}
+h1 {
+  font-size: 36px;
+}
+textarea {
+  width: 440px;
+  height: 175px;
+}
 .leave_heading {
   margin-bottom: 5%;
 }
@@ -160,9 +177,13 @@ export default {
 }
 .upload_sub_heading {
   font-size: 9px;
+  color: #9e9e9e;
 }
 .leave_main {
   position: relative;
+}
+span {
+  font-size: 16px;
 }
 .arrow {
   position: absolute;
@@ -217,6 +238,7 @@ export default {
 .sub__heading {
   color: #cf551c;
   font-weight: 700;
+  font-size: 18px;
 }
 .main__div {
   margin-top: 5%;
@@ -228,6 +250,7 @@ input {
   width: 99%;
   height: 40px;
   border: 0px;
+  font-size: 16px;
 }
 textarea {
   border: 0px;
@@ -273,5 +296,7 @@ table {
   padding-bottom: 5%;
   padding-top: 2%;
   background-color: #f5f8fd;
+}
+@media only screen and (max-width: 960px) {
 }
 </style>
