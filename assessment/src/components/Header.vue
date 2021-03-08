@@ -47,7 +47,4 @@ button {
 p {
   font-size: 20px;
 }
-hr {
-  border-top: 1px solid #9e9e9e;
-}
 </style>

@@ -532,7 +532,9 @@
             <p class="lineHeight0">BOOHub</p>
             <p class="lineHeight0">BOOChat</p>
             <p class="lineHeight0">QR Generator</p>
-            <p class="lineHeight0">BAM - <span>Coming Soon</span></p>
+            <p class="lineHeight0">
+              BAM - <span class="coming_soon">Coming Soon</span>
+            </p>
           </div>
           <div class="width25">
             <h4>Services</h4>
@@ -958,7 +960,7 @@ export default {
 .topSvgWrapper {
   display: flex;
   justify-content: space-around;
-  height: 80px;
+  height: 130px;
   align-items: center;
   position: relative;
   z-index: 2;
@@ -978,6 +980,7 @@ export default {
   justify-content: center;
   margin-top: 8px;
 }
+
 .rightEllipsis {
   display: flex;
   justify-content: center;
@@ -993,6 +996,7 @@ export default {
 .companyInfo {
   display: flex;
   flex-direction: row;
+  margin-top: 3%;
 }
 .width25 {
   width: 25%;
@@ -1003,7 +1007,7 @@ export default {
 .copyRightsWrapper {
   display: flex;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 3%;
 }
 .conditionsWrapper {
   display: flex;
@@ -1026,6 +1030,10 @@ export default {
 }
 hr {
   border-color: #e5e5e5;
+}
+.coming_soon {
+  color: #cf551c;
+  font-weight: 600;
 }
 @media (max-width: 1096px) {
   .width25 {

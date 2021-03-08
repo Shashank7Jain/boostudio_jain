@@ -1,6 +1,6 @@
 <template>
   <div class="main__div">
-    <div class="">
+    <div class="business_main">
       <div class="business__enquiries">
         <p class="sub__heading">Business enquiries</p>
         <h1>Visit one of our agency locations or contact us today</h1>
@@ -17,14 +17,7 @@
         <span>Monday to Saturday:9:00 to 16.pm</span>
       </div>
 
-      <br />
-      <img
-        src="people.svg"
-        width="350"
-        height="350"
-        alt="interview"
-        srcset=""
-      />
+      <img src="people.svg" alt="interview" srcset="" />
     </div>
     <div class="leave_main">
       <img src="business_first_dots.svg" class="first_dots" alt="dots" />
@@ -155,6 +148,10 @@ export default {
     margin-top: 10px;
   }
 }
+.leave_main,
+.business_main {
+  display: inline;
+}
 p {
   font-size: 16px;
 }
@@ -169,7 +166,7 @@ textarea {
   height: 175px;
 }
 .leave_heading {
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 .leave_sub_heading {
   margin-bottom: 5%;
@@ -180,6 +177,7 @@ textarea {
   color: #9e9e9e;
 }
 .leave_main {
+  margin-top: 9%;
   position: relative;
 }
 span {
@@ -229,7 +227,6 @@ span {
   z-index: -1;
 }
 .business__enquiries {
-  padding-top: 5%;
   padding-right: 22%;
   padding-bottom: 5%;
   padding-left: 15%;
@@ -241,31 +238,32 @@ span {
   font-size: 18px;
 }
 .main__div {
-  margin-top: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 input {
-  width: 99%;
-  height: 40px;
+  width: 81%;
+  padding: 9%;
   border: 0px;
   font-size: 16px;
 }
 textarea {
   border: 0px;
+  font-size: 16px;
+  border: 0px;
 }
+
 td {
   width: 50%;
-  margin-right: 1%;
+  padding: 5px 5px;
 }
 tr {
   width: 100%;
-  padding-bottom: 1%;
 }
 table {
   border-collapse: separate;
-  border-spacing: 0 5px;
+  border-spacing: 0 2px;
   width: 100%;
 }
 .upload {
@@ -290,11 +288,11 @@ table {
   margin-bottom: 22%;
 }
 .leave {
-  margin: 0% 2%;
   padding-left: 6%;
   padding-right: 6%;
   padding-bottom: 5%;
   padding-top: 2%;
+  width: auto;
   background-color: #f5f8fd;
 }
 @media only screen and (max-width: 960px) {

@@ -28,6 +28,9 @@ export default {
 
 <style>
 * {
-  font-family: "Lodo";
+  font-family: "Segoe UI";
+}
+hr {
+  border-top: 1px solid #9e9e9e;
 }
 </style>
