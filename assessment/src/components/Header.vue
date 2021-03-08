@@ -5,8 +5,7 @@
         <img src="BOOStudio_Logo.png" height="55px" width="207" alt="logo" />
       </div>
       <div>
-        <button>BOOHUB &#8594;</button>&nbsp;&nbsp;&nbsp;
-        <img src="menu.svg" alt="" width="100" height="40" />
+        <button>BOOHUB&#8594;</button>
       </div>
     </div>
     <hr />
@@ -23,11 +22,19 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-width: 960px) {
+  .main__div {
+    height: auto;
+    padding: 2% 5%;
+    border: 0px solid black;
+    background: #fffbfa;
+  }
+}
 .main__div {
-  height: 193px;
+  height: auto;
   padding: 32px 111px 22.1px 123px;
   border: 0px solid black;
-  background: #f2f2f2;
+  background: #fffbfa;
 }
 .logo__bar {
   display: flex;
@@ -37,14 +44,17 @@ button {
   background-color: #cf551c;
   color: #ffffff;
   border: none;
-  height: 55px;
-  width: 151px;
-  font-size: 18px;
+  padding: 14%;
+  font-size: 16px;
   font-weight: 600;
   border-radius: 2.5px;
-  margin-left: 5px !important;
+  margin-right: 5px !important;
 }
 p {
-  font-size: 20px;
+  font-size: 16px;
+  color: #8c8c8c;
+}
+span {
+  color: black;
 }
 </style>

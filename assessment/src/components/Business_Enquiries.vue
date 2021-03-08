@@ -17,7 +17,7 @@
         <span>Monday to Saturday:9:00 to 16.pm</span>
       </div>
 
-      <img src="people.svg" alt="interview" srcset="" />
+      <img src="people.svg" alt="interview" class="people_img" srcset="" />
     </div>
     <div class="leave_main">
       <img src="business_first_dots.svg" class="first_dots" alt="dots" />
@@ -147,11 +147,14 @@ export default {
   .main__div > * + * {
     margin-top: 10px;
   }
+  .people_img {
+    width: 370px;
+  }
 }
-.leave_main,
-.business_main {
-  display: inline;
+.people_img {
+  margin-left: 20%;
 }
+
 p {
   font-size: 16px;
 }
@@ -162,12 +165,10 @@ h1 {
   font-size: 36px;
 }
 textarea {
-  width: 440px;
+  width: 502px;
   height: 175px;
 }
-.leave_heading {
-  /* margin-bottom: 5%; */
-}
+
 .leave_sub_heading {
   margin-bottom: 5%;
   padding-right: 20%;
@@ -211,13 +212,13 @@ span {
 .second_dots_one {
   position: absolute;
   bottom: 44px;
-  left: -28px;
+  left: -44px;
   z-index: -1;
 }
 .second_dots_two {
   position: absolute;
   bottom: 129px;
-  left: -28px;
+  left: -44px;
   z-index: -1;
 }
 .first_dots {
@@ -230,7 +231,7 @@ span {
   padding-right: 22%;
   padding-bottom: 5%;
   padding-left: 15%;
-  margin-left: 8%;
+  margin-left: 11%;
 }
 .sub__heading {
   color: #cf551c;
@@ -252,6 +253,7 @@ textarea {
   border: 0px;
   font-size: 16px;
   border: 0px;
+  width: -webkit-fill-available;
 }
 
 td {
@@ -274,9 +276,16 @@ table {
   width: 100%;
   background-color: #ffffff;
   border: 0px;
+  font-size: 16px;
+  color: #8c8c8c;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 .request {
   display: block;
+  font-size: 15px;
   padding: 3% 4%;
   justify-content: center;
   text-align: center;
@@ -294,7 +303,5 @@ table {
   padding-top: 2%;
   width: auto;
   background-color: #f5f8fd;
-}
-@media only screen and (max-width: 960px) {
 }
 </style>
