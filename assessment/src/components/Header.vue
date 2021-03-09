@@ -5,7 +5,7 @@
         <img src="BOOStudio_Logo.png" alt="logo" />
       </div>
       <div class="buttons">
-        <img src="menu.svg" alt="menu-icon" />
+        <img src="menu.svg" class="menu" alt="menu-icon" />
         <button>BOOHUB&#8594;</button>
       </div>
     </div>
@@ -34,6 +34,9 @@ export default {
 }
 .logo {
   width: 50%;
+}
+.menu {
+  width: 50px;
 }
 .buttons {
   flex-direction: row-reverse;
