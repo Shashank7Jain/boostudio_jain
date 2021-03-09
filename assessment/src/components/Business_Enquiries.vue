@@ -139,10 +139,27 @@ export default {
 @media only screen and (max-width: 960px) {
   .main__div {
     display: flex;
-    margin: 0% 10%;
-    padding-left: 5%;
+    margin: 10% 10%;
     flex-direction: column;
-    margin-left: 31%;
+  }
+  .request {
+    font-size: 12px !important;
+  }
+  .arrow {
+    position: absolute;
+    top: 4px !important;
+    right: 7px !important;
+    z-index: 2;
+  }
+  input {
+    font-size: 11px !important;
+  }
+  textarea {
+    font-size: 11px !important;
+  }
+  .business__enquiries {
+    padding: 0% !important;
+    margin: 0% !important;
   }
   .main__div > * + * {
     margin-top: 10px;
@@ -150,20 +167,18 @@ export default {
   .people_img {
     width: 370px;
   }
+  .people_img {
+    margin-left: 0% !important;
+  }
 }
 .people_img {
   margin-left: 20%;
 }
 
-p {
-  font-size: 16px;
-}
 .business_desc {
   font-size: 20px;
 }
-h1 {
-  font-size: 36px;
-}
+
 textarea {
   width: 502px;
   height: 175px;

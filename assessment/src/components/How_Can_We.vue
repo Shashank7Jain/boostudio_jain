@@ -60,6 +60,7 @@ h3 {
   margin-left: 1.5%;
   background: #fdf8f5;
   padding: 4% 9%;
+  border: 1px solid #cf551c;
 }
 .business {
   background: #fdf8f5;
@@ -107,6 +108,7 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 4%;
   }
 }
 </style>

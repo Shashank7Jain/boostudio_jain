@@ -1,10 +1,11 @@
 <template>
   <div class="main__div">
     <div class="logo__bar">
-      <div>
-        <img src="BOOStudio_Logo.png" height="55px" width="207" alt="logo" />
+      <div class="logo">
+        <img src="BOOStudio_Logo.png" alt="logo" />
       </div>
-      <div>
+      <div class="buttons">
+        <img src="menu.svg" alt="menu-icon" />
         <button>BOOHUB&#8594;</button>
       </div>
     </div>
@@ -24,35 +25,43 @@ export default {
 <style scoped>
 @media only screen and (max-width: 960px) {
   .main__div {
-    height: auto;
-    padding: 2% 5%;
-    border: 0px solid black;
-    background: #fffbfa;
+    padding: 1% 0% !important;
+  }
+  button {
+    padding: 1%;
+    font-size: 10px;
   }
 }
+.logo {
+  width: 50%;
+}
+.buttons {
+  flex-direction: row-reverse;
+  width: 50%;
+  display: flex;
+}
 .main__div {
-  height: auto;
   padding: 32px 111px 22.1px 123px;
   border: 0px solid black;
   background: #fffbfa;
 }
 .logo__bar {
   display: flex;
-  justify-content: space-between;
+  height: 55px;
 }
 button {
   background-color: #cf551c;
   color: #ffffff;
   border: none;
-  padding: 14%;
+  padding: 2%;
   font-size: 16px;
   font-weight: 600;
   border-radius: 2.5px;
-  margin-right: 5px !important;
 }
 p {
   font-size: 16px;
   color: #8c8c8c;
+  margin-left: 19%;
 }
 span {
   color: black;

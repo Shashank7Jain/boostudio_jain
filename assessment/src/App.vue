@@ -31,6 +31,12 @@ export default {
   font-family: "Segoe UI";
 }
 hr {
-  border-top: 1px solid #9e9e9e;
+  border-top: 1px solid #e1e2e3;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
 </style>

@@ -183,8 +183,8 @@
     <div class="socialMediaWrapper">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="40"
-        height="40"
+        width="35"
+        height="35"
         viewBox="0 0 40 40"
       >
         <g id="Group_1993" data-name="Group 1993" transform="translate(0)">
@@ -211,8 +211,8 @@
       </svg>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="40"
-        height="40"
+        width="35"
+        height="35"
         viewBox="0 0 40 40"
         style="margin-left: 5px"
       >
@@ -236,8 +236,8 @@
       </svg>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="40"
-        height="40"
+        width="35"
+        height="35"
         viewBox="0 0 40 40"
         style="margin-left: 5px"
       >
@@ -992,6 +992,7 @@ export default {
 }
 .copyRight {
   width: 60%;
+  font-weight: 500;
 }
 .companyInfo {
   display: flex;
@@ -1003,6 +1004,7 @@ export default {
 }
 .lineHeight0 {
   line-height: 0.5;
+  font-weight: 500;
 }
 .copyRightsWrapper {
   display: flex;
@@ -1016,6 +1018,7 @@ export default {
 }
 .innerConditions {
   width: 20%;
+  font-weight: 500;
 }
 .width20 {
   width: 20%;
