@@ -944,7 +944,7 @@ export default {
 </script>
 <style scoped>
 .rootWrapper {
-  margin-top: 25%;
+  margin-top: 15%;
   position: absolute;
   background-color: #f5f8fd;
   width: 100%;
