@@ -149,7 +149,7 @@ export default {
     position: absolute;
     top: 4px !important;
     right: 7px !important;
-    z-index: 4;
+    z-index: 2;
   }
   input {
     font-size: 11px !important;
